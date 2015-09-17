@@ -1,9 +1,8 @@
 
-package org.usfirst.frc.team2022.robot.commands;
+package edu.imsa.titanrobotics.crio2015.commands;
 
+import edu.imsa.titanrobotics.crio2015.Robot;
 import edu.wpi.first.wpilibj.command.Command;
-
-import org.usfirst.frc.team2022.robot.Robot;
 
 /**
  *

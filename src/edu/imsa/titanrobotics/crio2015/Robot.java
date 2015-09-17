@@ -1,12 +1,12 @@
 
-package org.usfirst.frc.team2022.robot;
+package edu.imsa.titanrobotics.crio2015;
 
+import edu.imsa.titanrobotics.crio2015.commands.ExampleCommand;
+import edu.imsa.titanrobotics.crio2015.subsystems.ExampleSubsystem;
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.livewindow.LiveWindow;
-import org.usfirst.frc.team2022.robot.commands.ExampleCommand;
-import org.usfirst.frc.team2022.robot.subsystems.ExampleSubsystem;
 
 /**
  * The VM is configured to automatically run this class, and to call the
