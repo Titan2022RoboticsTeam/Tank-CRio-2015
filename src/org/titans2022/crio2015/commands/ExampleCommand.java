@@ -1,7 +1,8 @@
 
-package edu.imsa.titanrobotics.crio2015.commands;
+package org.titans2022.crio2015.commands;
 
-import edu.imsa.titanrobotics.crio2015.Robot;
+import org.titans2022.crio2015.Robot;
+
 import edu.wpi.first.wpilibj.command.Command;
 
 /**

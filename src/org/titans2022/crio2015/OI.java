@@ -1,6 +1,6 @@
-package edu.imsa.titanrobotics.crio2015;
+package org.titans2022.crio2015;
 
-import edu.imsa.titanrobotics.crio2015.controllers.*;
+import org.titans2022.crio2015.controllers.*;
 
 /**
  * This class is the glue that binds the controls on the physical operator

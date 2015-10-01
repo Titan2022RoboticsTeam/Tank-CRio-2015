@@ -1,8 +1,9 @@
 
-package edu.imsa.titanrobotics.crio2015;
+package org.titans2022.crio2015;
 
-import edu.imsa.titanrobotics.crio2015.commands.ExampleCommand;
-import edu.imsa.titanrobotics.crio2015.subsystems.ExampleSubsystem;
+import org.titans2022.crio2015.commands.ExampleCommand;
+import org.titans2022.crio2015.subsystems.ExampleSubsystem;
+
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;

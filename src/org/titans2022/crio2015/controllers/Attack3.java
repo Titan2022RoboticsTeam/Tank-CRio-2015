@@ -1,4 +1,4 @@
-package edu.imsa.titanrobotics.crio2015.controllers;
+package org.titans2022.crio2015.controllers;
 
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
