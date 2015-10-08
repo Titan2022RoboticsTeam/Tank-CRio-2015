@@ -1,8 +1,8 @@
 
 package org.titans2022.crio2015;
 
-import org.titans2022.crio2015.commands.ExampleCommand;
-import org.titans2022.crio2015.subsystems.ExampleSubsystem;
+import org.titans2022.crio2015.commands.*;
+import org.titans2022.crio2015.subsystems.*;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.command.Command;
@@ -18,10 +18,12 @@ import edu.wpi.first.wpilibj.livewindow.LiveWindow;
  */
 public class Robot extends IterativeRobot {
 
+	public static final TankSubsystem tankSubsystem = new TankSubsystem();
 	public static final ExampleSubsystem exampleSubsystem = new ExampleSubsystem();
 	public static OI oi;
 
     Command autonomousCommand;
+    TankCommand tankCommand;
 
     /**
      * This function is run when the robot is first started up and should be
@@ -55,6 +57,7 @@ public class Robot extends IterativeRobot {
         // continue until interrupted by another command, remove
         // this line or comment it out.
         if (autonomousCommand != null) autonomousCommand.cancel();
+        tankCommand.start();
     }
 
     /**
